@@ -8177,12 +8177,12 @@ input, select, textarea {
 /* Index */
 
 	.index > * {
-		padding: 3rem 0 1rem 0 ;
+/*		padding: 3rem 0 1rem 0 ;*/
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		border-top: solid 1px;
+/*		border-top: solid 1px;*/
 	}
 
 		.index > * > header {

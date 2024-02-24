@@ -98,6 +98,7 @@
 	// Smooth scroll.
 		$('.smooth-scroll').scrolly();
 		$('.smooth-scroll-middle').scrolly({ anchor: 'middle' });
+		$('.smooth-scroll-top').scrolly({ anchor: 'top' });
 
 	// Wrapper.
 		$wrapper.children()
@@ -235,7 +236,7 @@
 						href = $a.attr('href');
 
 					// Not an image? Bail.
-						if (!href.match(/\.(jpg|gif|png|mp4)$/))
+						if (!href.match(/\.(jpg|jpeg|gif|png|mp4)$/))
 							return;
 
 					// Prevent default.
